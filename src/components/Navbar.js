@@ -5,12 +5,12 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-center">
-        <Link to="/">
+        <Link to="API-react1/">
           <img src={logo} alt="cocktail db logo" className="logo" />
         </Link>
         <ul className="nav-links">
           <li>
-            <Link to="/">home</Link>
+            <Link to="API-react1/">home</Link>
           </li>
           <li>
             <Link to="/about">about</Link>
